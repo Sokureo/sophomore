@@ -1,0 +1,19 @@
+import urllib.request
+import re
+
+
+def download_page(pageUrl):
+    articles = []
+    try:
+        page = urllib.request.urlopen(pageUrl)
+        text = page.read().decode('UTF-8')
+        articles.append(text)
+    except:
+        print("Error at ", pageUrl)
+        return
+    print(articles)
+
+common_Url = 'http://izvestia.ru/news/'
+for i in range (633170, 633175):
+    pageUrl = common_Url + str(i)
+    download_page(pageUrl)
