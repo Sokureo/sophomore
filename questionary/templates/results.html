@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Куски</title>
+</head>
+<br>
+<h2 align="center"><tt>Лексико-типологическая анкета</tt></h2>
+<h2 align="center">Куски</h2>
+<style>
+    body {
+    background: #F5F5DC;
+    color: #556B2F;
+   }
+    p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    }
+    h2 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    }
+</style>
+<body link="#556B2F">
+<p align="center"><tt><a href="http://127.0.0.1:5000/" style="text-decoration: none;">Анкета&nbsp;</a><a href="http://127.0.0.1:5000/search" style="text-decoration: none;">&nbsp;Поиск&nbsp;</a><a href="http://127.0.0.1:5000/stats" style="text-decoration: none;">&nbsp;Статистика&nbsp;</a><a href="http://127.0.0.1:5000/json" style="text-decoration: none;">&nbsp;json</a></tt></p>
+<br>
+<br>
+<p><b>Вы ищете слово: {{ word }}</b></p><br>
+<br>
+    {%for res in results %}
+    {{ res }}<br><br>
+    {% endfor %}
+<br>
+<br>
+    <p><small>Составители анкеты: Егор Кашкин, Анастасия Мельник</small></p>
+    <p><small>НИУ ВШЭ, 2016</small></p>
+
+</body>
+</html>

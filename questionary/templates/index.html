@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Куски</title>
+</head>
+<br>
+<h2 align="center"><tt>Лексико-типологическая анкета</tt></h2>
+<h2 align="center">Куски</h2>
+<style>
+    body {
+    background: #F5F5DC;
+    color: #556B2F;
+   }
+    p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    }
+    h2 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    }
+</style>
+<body link="#556B2F">
+<p align="center"><tt><a href="http://127.0.0.1:5000/" style="text-decoration: none;">Анкета&nbsp;</a><a href="http://127.0.0.1:5000/search" style="text-decoration: none;">&nbsp;Поиск&nbsp;</a><a href="http://127.0.0.1:5000/stats" style="text-decoration: none;">&nbsp;Статистика&nbsp;</a><a href="http://127.0.0.1:5000/json" style="text-decoration: none;">&nbsp;json</a></tt></p>
+    <p><b>Здравствуйте! <br> Введите Ваши данные:</b></p><br>
+<form action="http://127.0.0.1:5000/answers" method="GET">
+    <label>Имя: <input type="text" name="name"> </label><br>
+    <label>Возраст: <input type="text" name="age"></label><br>
+    <label>Место рождения: <input type="text" name="hometown"></label><br>
+    <br>
+
+    <p><b>Как Вы скажете на горномарийском языке следуюшие предложения?</b></p><br>
+        <label>1. Обломки лыж валялись в лесу.<br><input type="text" name="q1"> </label><br>
+        <label>2. Я поломал лыжи на части.<br><input type="text" name="q2"> </label><br>
+        <label>3. Солдат был ранен осколком.<br><input type="text" name="q3"> </label><br>
+        <label>4. Снаряд разлетелся на осколки.<br><input type="text" name="q4"> </label><br>
+        <label>5. Я поранился осколком стекла.<br><input type="text" name="q5"> </label><br>
+        <label>6. Я отрезал от каравая два ломтя.<br><input type="text" name="q6"> </label><br>
+        <label>7. Возле сарая лежали обломки бревна.<br><input type="text" name="q7"> </label><br>
+        <label>8. На тарелке лежали куски огурца.<br><input type="text" name="q8"> </label><br>
+        <label>9. Дайте мне небольшой отрез ткани.<br><input type="text" name="q9"> </label><br>
+        <label>10. Мне в яичнице попались осколки скорлупы.<br><input type="text" name="q10"> </label><br>
+        <br><input type="submit" value="Отправить">
+</form>
+<br>
+    <p><small>Составители анкеты: Егор Кашкин, Анастасия Мельник</small></p>
+    <p><small>НИУ ВШЭ, 2016</small></p>
+
+</body>
+</html>
