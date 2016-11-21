@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Англо-тайский словарь</title>
+</head>
+<br>
+<h2 align="center"><tt>Англо-тайский словарь</tt></h2>
+<style>
+    body {
+    background: #008080;
+    color: #F0FFFF;
+   }
+    p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    }
+    h2 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    }
+</style>
+<body link="#556B2F">
+<p align="center"><tt><a href="http://127.0.0.1:5000/" style="text-decoration: none;">Поиск&nbsp;</a></p><br>
+<br>
+<br>
+    {%for res in results %}
+    {{ res }}<br><br>
+    {% endfor %}
+<br>
+<br>
+    <p><small>НИУ ВШЭ, 2016</small></p>
+
+</body>
+</html>
