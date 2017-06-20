@@ -1,4 +1,4 @@
 conf.py
 .idea
-_pycache_
+__pycache__
 try.py
