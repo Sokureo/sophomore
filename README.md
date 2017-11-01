@@ -1,2 +1,2 @@
 # sophomore
-2016/2017. Second-year computational linguistics 
+https://sokureo.github.io/sophomore/
